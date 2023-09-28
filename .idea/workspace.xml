@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72bf3ca0-59ac-464b-b69f-50cec1d09e2f" name="Changes" comment="clases finalizadas">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/TestInstanciarClases.java" afterDir="false" />
+    <list default="true" id="72bf3ca0-59ac-464b-b69f-50cec1d09e2f" name="Changes" comment="test instanciar clases hechos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/TestInstanciarClases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/TestInstanciarClases.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,7 @@
       <workItem from="1695834112225" duration="2316000" />
       <workItem from="1695890130697" duration="3051000" />
       <workItem from="1695895622676" duration="219000" />
-      <workItem from="1695896744546" duration="894000" />
+      <workItem from="1695896744546" duration="1434000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -127,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695895729918</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="test instanciar clases hechos">
+      <option name="closed" value="true" />
+      <created>1695897972142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695897972142</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="clases finalizadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="clases finalizadas" />
+    <MESSAGE value="test instanciar clases hechos" />
+    <option name="LAST_COMMIT_MESSAGE" value="test instanciar clases hechos" />
   </component>
 </project>
