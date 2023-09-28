@@ -12,17 +12,17 @@ public class Order {
 
     // Atributos
 
-    public List<LineItem> lineItemList;
+    private List<LineItem> lineItemList;
 
-    public List<Payment> paymentList;
+    private List<Payment> paymentList;
 
-    public Account account;
-    public String number;
-    public LocalDate ordered;
-    public LocalDate shipped;
-    public String shipTo;
-    public OrderStatus status;
-    public BigDecimal total;
+    private Account account;
+    private String number;
+    private LocalDate ordered;
+    private LocalDate shipped;
+    private String shipTo;
+    private OrderStatus status;
+    private BigDecimal total;
 
     // Constructores
 

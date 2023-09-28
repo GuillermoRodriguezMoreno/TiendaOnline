@@ -7,12 +7,12 @@ public class Payment {
 
     // Atributos
 
-    public Order order;
-    public Account account;
-    public String id;
-    public LocalDate paid;
-    public BigDecimal total;
-    public String details;
+    private Order order;
+    private Account account;
+    private String id;
+    private LocalDate paid;
+    private BigDecimal total;
+    private String details;
 
     // Constructores
 

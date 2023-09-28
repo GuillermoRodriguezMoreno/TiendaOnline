@@ -4,11 +4,11 @@ public class LineItem {
 
     // Atributos
 
-    public Order order;
-    public Product product;
-    public long quantity;
-    public double price;
-    public ShoppingCart shoppingCart;
+    private Order order;
+    private Product product;
+    private long quantity;
+    private double price;
+    private ShoppingCart shoppingCart;
 
     // Constructores
 

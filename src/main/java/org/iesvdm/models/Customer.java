@@ -4,12 +4,12 @@ public class Customer {
 
     // Atributos
 
-    public Account account;
-    public WebUser webUser;
-    public String id;
-    public String address;
-    public String phone;
-    public String email;
+    private Account account;
+    private WebUser webUser;
+    private String id;
+    private String address;
+    private String phone;
+    private String email;
 
     // Constructores
 

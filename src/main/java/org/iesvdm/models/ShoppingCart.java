@@ -7,10 +7,10 @@ public class ShoppingCart {
 
     // Atributos
 
-    public Account account;
-    public WebUser webUser;
-    public LocalDate created;
-    public List<LineItem> lineItemList;
+    private Account account;
+    private WebUser webUser;
+    private LocalDate created;
+    private List<LineItem> lineItemList;
 
     // Constructores
 

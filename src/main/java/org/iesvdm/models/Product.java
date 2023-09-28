@@ -4,10 +4,10 @@ public class Product {
 
     // Atributos
 
-    public String id;
-    public String name;
-    public double precio;
-    public String supplier;
+    private String id;
+    private String name;
+    private double precio;
+    private String supplier;
 
     // Constructores
 

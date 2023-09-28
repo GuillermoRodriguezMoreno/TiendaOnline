@@ -7,10 +7,10 @@ public class WebUser {
 
     // Atributos
 
-    public Customer customer;
-    public String loginId;
-    public String password;
-    public UserState state;
+    private Customer customer;
+    private String loginId;
+    private String password;
+    private UserState state;
 
     // Constructores
 

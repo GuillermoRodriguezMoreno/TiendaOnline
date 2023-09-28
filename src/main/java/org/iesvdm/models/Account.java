@@ -8,13 +8,13 @@ public class Account {
     // Atributos
 
 
-    public List<Order> orderList;
-    public List<Payment> paymentList;
-    public String id;
-    public String billingAddress;
-    public boolean isClosed;
-    public LocalDate open;
-    public LocalDate closed;
+    private List<Order> orderList;
+    private List<Payment> paymentList;
+    private String id;
+    private String billingAddress;
+    private boolean isClosed;
+    private LocalDate open;
+    private LocalDate closed;
 
     // Constructores
 
