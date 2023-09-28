@@ -1,7 +1,8 @@
-package org.iesvdm.clases;
+package org.iesvdm.models;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
 
 public class Order {
 
@@ -11,6 +12,11 @@ public class Order {
 
     // Atributos
 
+    public List<LineItem> lineItemList;
+
+    public List<Payment> paymentList;
+
+    public Account account;
     public String number;
     public LocalDate ordered;
     public LocalDate shipped;

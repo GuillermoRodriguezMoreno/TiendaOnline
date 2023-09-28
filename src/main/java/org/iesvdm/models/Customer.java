@@ -1,9 +1,11 @@
-package org.iesvdm.clases;
+package org.iesvdm.models;
 
 public class Customer {
 
     // Atributos
 
+    public Account account;
+    public WebUser webUser;
     public String id;
     public String address;
     public String phone;

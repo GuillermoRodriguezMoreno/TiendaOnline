@@ -1,4 +1,4 @@
-package org.iesvdm.clases;
+package org.iesvdm.models;
 
 public class Product {
 
@@ -6,19 +6,28 @@ public class Product {
 
     public String id;
     public String name;
+    public double precio;
     public String supplier;
 
     // Constructores
 
-    public Product(String id, String name, String supplier) {
-
+    public Product(String id, String name, double precio, String supplier) {
         this.id = id;
         this.name = name;
+        this.precio = precio;
         this.supplier = supplier;
-
     }
 
+
     // Getters y Setters
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
 
     public String getId() {
         return id;

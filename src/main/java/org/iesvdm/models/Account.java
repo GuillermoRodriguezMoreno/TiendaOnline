@@ -1,11 +1,15 @@
-package org.iesvdm.clases;
+package org.iesvdm.models;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public class Account {
 
     // Atributos
 
+
+    public List<Order> orderList;
+    public List<Payment> paymentList;
     public String id;
     public String billingAddress;
     public boolean isClosed;

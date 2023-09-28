@@ -1,4 +1,4 @@
-package org.iesvdm.clases;
+package org.iesvdm.models;
 
 public class WebUser {
 
@@ -7,21 +7,30 @@ public class WebUser {
 
     // Atributos
 
-    private String loginId;
-    private String password;
-    private  UserState state;
+    public Customer customer;
+    public String loginId;
+    public String password;
+    public UserState state;
 
     // Constructores
 
-   public WebUser(String loginId, String password, UserState state) {
-
+    public WebUser(Customer customer, String loginId, String password, UserState state) {
+        this.customer = customer;
         this.loginId = loginId;
         this.password = password;
         this.state = state;
-
     }
 
+
     // Getters y Setters
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
 
     public String getLoginId() {
         return loginId;

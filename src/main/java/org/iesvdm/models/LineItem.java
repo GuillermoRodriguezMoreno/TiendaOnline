@@ -1,11 +1,14 @@
-package org.iesvdm.clases;
+package org.iesvdm.models;
 
 public class LineItem {
 
     // Atributos
 
+    public Order order;
+    public Product product;
     public long quantity;
     public double price;
+    public ShoppingCart shoppingCart;
 
     // Constructores
 

@@ -1,4 +1,4 @@
-package org.iesvdm.clases;
+package org.iesvdm.models;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -7,6 +7,8 @@ public class Payment {
 
     // Atributos
 
+    public Order order;
+    public Account account;
     public String id;
     public LocalDate paid;
     public BigDecimal total;
@@ -14,14 +16,15 @@ public class Payment {
 
     // Constructores
 
-    public Payment(String id, LocalDate paid, BigDecimal total, String details) {
-
+    public Payment(Order order, Account account, String id, LocalDate paid, BigDecimal total, String details) {
+        this.order = order;
+        this.account = account;
         this.id = id;
         this.paid = paid;
         this.total = total;
         this.details = details;
-
     }
+
 
     // Getters y Setters
 
