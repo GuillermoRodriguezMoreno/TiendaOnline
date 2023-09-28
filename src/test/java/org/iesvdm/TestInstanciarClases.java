@@ -1,9 +1,6 @@
 package org.iesvdm;
 
-import org.iesvdm.models.Account;
-import org.iesvdm.models.Customer;
-import org.iesvdm.models.Product;
-import org.iesvdm.models.WebUser;
+import org.iesvdm.models.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -36,6 +33,29 @@ public class TestInstanciarClases {
         Assertions.assertEquals(prod2.getPrecio(), 234);
         Assertions.assertEquals(prod3.getSupplier(), "Ikea");
 
+    }
+
+    @Test void añadirProductos(){
+
+        // Cuenta
+        Account cuenta = new Account("1", "fuengirola", false, LocalDate.now(), null);
+
+        // Cliente
+        Customer cliente = new Customer("1", "fuengirola", "666666666", "example@gmail.com");
+
+        // Usuario
+        WebUser usuario = new WebUser(cliente, "nick", "123", WebUser.UserState.ACTIVE);
+
+        // Linea Productos
+        LineItem lineaProd = new LineItem()
+
+        // Carrito
+        ShoppingCart carrito = new ShoppingCart(usuario.getCustomer().getAccount(), usuario, LocalDate.now(), )
+
+        // Productos
+        Product prod1 = new Product("1", "ordenador", 1234.50, "PcComponentes");
+        Product prod2 = new Product("2", "impresora", 234, "PcComponentes");
+        Product prod3 = new Product("3", "lampara", 50.60, "Ikea");
     }
 
 }

@@ -39,6 +39,30 @@ public class Order {
 
     // Getters y Setters
 
+    public List<LineItem> getLineItemList() {
+        return lineItemList;
+    }
+
+    public void setLineItemList(List<LineItem> lineItemList) {
+        this.lineItemList = lineItemList;
+    }
+
+    public List<Payment> getPaymentList() {
+        return paymentList;
+    }
+
+    public void setPaymentList(List<Payment> paymentList) {
+        this.paymentList = paymentList;
+    }
+
+    public Account getAccount() {
+        return account;
+    }
+
+    public void setAccount(Account account) {
+        this.account = account;
+    }
+
     public String getNumber() {
         return number;
     }

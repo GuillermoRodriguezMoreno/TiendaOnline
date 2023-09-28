@@ -54,4 +54,10 @@ public class ShoppingCart {
     public void setCreated(LocalDate created) {
         this.created = created;
     }
+
+    // Metodos
+
+    public void añadirProd(Product prod){
+
+    }
 }
