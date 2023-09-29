@@ -1,5 +1,7 @@
 package org.iesvdm.models;
 
+import java.util.Objects;
+
 public class LineItem {
 
     // Atributos
@@ -55,4 +57,16 @@ public class LineItem {
 
     // Metodos
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        LineItem lineItem = (LineItem) o;
+        return Objects.equals(order, lineItem.order) && Objects.equals(product, lineItem.product) && Objects.equals(shoppingCart, lineItem.shoppingCart);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(order, product, shoppingCart);
+    }
 }

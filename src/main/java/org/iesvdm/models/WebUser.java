@@ -1,5 +1,7 @@
 package org.iesvdm.models;
 
+import java.util.Objects;
+
 public class WebUser {
 
     // Enum
@@ -54,5 +56,20 @@ public class WebUser {
 
     public void setState(UserState state) {
         this.state = state;
+    }
+
+    // Metodos
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        WebUser webUser = (WebUser) o;
+        return Objects.equals(loginId, webUser.loginId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(loginId);
     }
 }

@@ -1,5 +1,7 @@
 package org.iesvdm.models;
 
+import java.util.Objects;
+
 public class Customer {
 
     // Atributos
@@ -72,5 +74,20 @@ public class Customer {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    // Metodos
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Customer customer = (Customer) o;
+        return Objects.equals(id, customer.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 }

@@ -2,6 +2,7 @@ package org.iesvdm.models;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.Objects;
 
 public class Payment {
 
@@ -74,5 +75,20 @@ public class Payment {
 
     public void setDetails(String details) {
         this.details = details;
+    }
+
+    // Metodos
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Payment payment = (Payment) o;
+        return Objects.equals(id, payment.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 }

@@ -2,6 +2,7 @@ package org.iesvdm.models;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Objects;
 
 public class Account {
 
@@ -85,5 +86,21 @@ public class Account {
 
     public void setClosed(LocalDate closed) {
         this.closed = closed;
+    }
+
+    // Metodos
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Account account = (Account) o;
+        return Objects.equals(id, account.id);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id);
     }
 }
