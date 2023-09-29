@@ -2,6 +2,7 @@ package org.iesvdm.models;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
@@ -26,16 +27,18 @@ public class Order {
 
     // Constructores
 
-    public Order(String number, LocalDate ordered, LocalDate shipped, String shipTo, OrderStatus status, BigDecimal total) {
-
+    public Order(List<Payment> paymentList, Account account, String number, LocalDate ordered, LocalDate shipped, String shipTo, OrderStatus status, BigDecimal total) {
+        this.lineItemList = new ArrayList<LineItem>();
+        this.paymentList = new ArrayList<Payment>();
+        this.account = account;
         this.number = number;
         this.ordered = ordered;
         this.shipped = shipped;
         this.shipTo = shipTo;
         this.status = status;
         this.total = total;
-
     }
+
 
     // Getters y Setters
 

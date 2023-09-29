@@ -13,16 +13,18 @@ public class Customer {
 
     // Constructores
 
-    public Customer(String id, String address, String phone, String email) {
-
+    public Customer(Account account, WebUser webUser, String id, String address, String phone, String email) {
+        this.account = account;
+        this.webUser = webUser;
         this.id = id;
         this.address = address;
         this.phone = phone;
         this.email = email;
-
     }
 
+
     // Getters y Setters
+
 
     public Account getAccount() {
         return account;

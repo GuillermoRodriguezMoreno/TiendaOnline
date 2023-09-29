@@ -18,14 +18,16 @@ public class Account {
 
     // Constructores
 
-    public Account(String id, String billingAddress, boolean isClosed, LocalDate open, LocalDate closed) {
-
+    public Account(List<Order> orderList, List<Payment> paymentList, String id, String billingAddress, boolean isClosed, LocalDate open, LocalDate closed) {
+        this.orderList = orderList;
+        this.paymentList = paymentList;
         this.id = id;
         this.billingAddress = billingAddress;
         this.isClosed = isClosed;
         this.open = open;
         this.closed = closed;
     }
+
 
     // Getters y Setters
 

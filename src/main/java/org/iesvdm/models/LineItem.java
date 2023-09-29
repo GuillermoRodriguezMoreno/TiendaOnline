@@ -7,16 +7,14 @@ public class LineItem {
     private Order order;
     private Product product;
     private long quantity;
-    private double price;
     private ShoppingCart shoppingCart;
 
     // Constructores
 
-    public LineItem(Order order, Product product, long quantity, double price, ShoppingCart shoppingCart) {
+    public LineItem(Order order, Product product, long quantity, ShoppingCart shoppingCart) {
         this.order = order;
         this.product = product;
         this.quantity = quantity;
-        this.price = price;
         this.shoppingCart = shoppingCart;
     }
 
@@ -53,14 +51,6 @@ public class LineItem {
 
     public void setQuantity(long quantity) {
         this.quantity = quantity;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 
     // Metodos

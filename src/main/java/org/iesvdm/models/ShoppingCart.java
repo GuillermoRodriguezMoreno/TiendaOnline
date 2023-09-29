@@ -57,7 +57,4 @@ public class ShoppingCart {
 
     // Metodos
 
-    public void añadirProd(Product prod){
-
-    }
 }

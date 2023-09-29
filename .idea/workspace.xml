@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72bf3ca0-59ac-464b-b69f-50cec1d09e2f" name="Changes" comment="test instanciar clases hechos">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/TestOnlineShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/LineItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/TestInstanciarClases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/TestInstanciarClases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/models/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/TestInstanciarClases.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,26 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "/home/guille/dev/proyectoTIendaOnline/src/main/java/org/iesvdm/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/guille/dev/proyectoTIendaOnline/src/main/java/org/iesvdm/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.TestInstanciarClases.crearProductos">
-    <configuration name="TestInstanciarClases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.TestOnlineShop.asociadoACarrito">
+    <configuration name="TestInstanciarClases.asociadoACarrito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proyectoTIendaOnline" />
       <extension name="coverage">
         <pattern>
@@ -65,7 +67,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.iesvdm" />
       <option name="MAIN_CLASS_NAME" value="org.iesvdm.TestInstanciarClases" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="asociadoACarrito" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInstanciarClases.añadirProductos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoTIendaOnline" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.TestInstanciarClases" />
+      <option name="METHOD_NAME" value="añadirProductos" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,10 +105,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestOnlineShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoTIendaOnline" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.TestOnlineShop" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOnlineShop.asociadoACarrito" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proyectoTIendaOnline" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.TestOnlineShop" />
+      <option name="METHOD_NAME" value="asociadoACarrito" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestOnlineShop.asociadoACarrito" />
+        <item itemvalue="JUnit.TestOnlineShop" />
+        <item itemvalue="JUnit.TestInstanciarClases.asociadoACarrito" />
+        <item itemvalue="JUnit.TestInstanciarClases.añadirProductos" />
         <item itemvalue="JUnit.TestInstanciarClases.crearProductos" />
-        <item itemvalue="JUnit.TestInstanciarClases" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +157,8 @@
       <workItem from="1695834112225" duration="2316000" />
       <workItem from="1695890130697" duration="3051000" />
       <workItem from="1695895622676" duration="219000" />
-      <workItem from="1695896744546" duration="1857000" />
+      <workItem from="1695896744546" duration="4307000" />
+      <workItem from="1695975971804" duration="3866000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -146,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695898417957</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test instanciar clases hechos">
+      <option name="closed" value="true" />
+      <created>1695898907126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695898907126</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
